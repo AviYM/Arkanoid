@@ -1,0 +1,47 @@
+
+# Level 1
+# Piano
+
+
+START_LEVEL
+level_name:Piano
+ball_velocities:45,500
+background:image(background_images/photo_piano.jpg)
+paddle_speed:800
+paddle_width:160
+block_definitions:definitions/piano_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:100
+row_height:0
+num_blocks:25
+START_BLOCKS
+wwwwwwwwwwwwwww
+*b-b**b-b-b**b-b**b-b-b
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: My First Design
+ball_velocities:-30,500 -15,500 15,500 30,500
+background:color(RGB(78,79,80))
+paddle_speed:650
+paddle_width:150
+block_definitions:definitions/my_first_design_block_definitions.txt
+blocks_start_x:50
+blocks_start_y:80
+row_height:25
+num_blocks:50
+START_BLOCKS
+
+aaaaaaaaaaaaaa
+-bbbbbbbbbbbb
+--cccccccccc
+---dddddddd
+----eeeeee
+
+END_BLOCKS
+END_LEVEL
